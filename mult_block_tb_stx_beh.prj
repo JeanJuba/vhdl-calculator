@@ -1,0 +1,6 @@
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "comparator_equal.vhd"
+vhdl isim_temp "commutator.vhd"
+vhdl isim_temp "adder.vhd"
+vhdl isim_temp "mult_block.vhd"
+vhdl isim_temp "mult_block_tb.vhd"

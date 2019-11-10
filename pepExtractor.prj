@@ -1,0 +1,7 @@
+work	"../alu-csm-pow/MAIN_BLOCK.vhd"
+work	"../alu-csm-pow/control_block.vhd"
+work	"adder.vhd"
+work	"commutator.vhd"
+work	"comparator_equal.vhd"
+work	"mult_block.vhd"
+work	"register.vhd"

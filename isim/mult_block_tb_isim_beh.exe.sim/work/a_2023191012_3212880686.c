@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl_calculator/register.vhd";
+static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd";
 
 
 
@@ -44,7 +44,7 @@ static void work_a_2023191012_3212880686_p_0(char *t0)
     unsigned char t15;
     char *t16;
 
-LAB0:    xsi_set_current_line(20, ng0);
+LAB0:    xsi_set_current_line(18, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
@@ -68,30 +68,30 @@ LAB9:    if (t3 != 0)
         goto LAB5;
 
 LAB6:
-LAB3:    t1 = (t0 + 3312);
+LAB3:    t1 = (t0 + 3152);
     *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(21, ng0);
-    t1 = (t0 + 5267);
-    t6 = (t0 + 3392);
+LAB2:    xsi_set_current_line(19, ng0);
+    t1 = (t0 + 5027);
+    t6 = (t0 + 3232);
     t7 = (t6 + 56U);
     t8 = *((char **)t7);
     t9 = (t8 + 56U);
     t10 = *((char **)t9);
-    memcpy(t10, t1, 4U);
+    memcpy(t10, t1, 8U);
     xsi_driver_first_trans_fast_port(t6);
     goto LAB3;
 
-LAB5:    xsi_set_current_line(23, ng0);
+LAB5:    xsi_set_current_line(21, ng0);
     t2 = (t0 + 1512U);
     t7 = *((char **)t2);
-    t2 = (t0 + 3392);
+    t2 = (t0 + 3232);
     t8 = (t2 + 56U);
     t9 = *((char **)t8);
     t10 = (t9 + 56U);
     t16 = *((char **)t10);
-    memcpy(t16, t7, 4U);
+    memcpy(t16, t7, 8U);
     xsi_driver_first_trans_fast_port(t2);
     goto LAB3;
 

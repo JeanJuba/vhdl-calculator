@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl_calculator/adder.vhd";
+static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd";
 extern char *IEEE_P_3620187407;
 
 char *ieee_p_3620187407_sub_767668596_3965413181(char *, char *, char *, char *, char *, char *);
@@ -46,7 +46,7 @@ static void work_a_1153420228_3212880686_p_0(char *t0)
     char *t15;
     char *t16;
 
-LAB0:    xsi_set_current_line(43, ng0);
+LAB0:    xsi_set_current_line(16, ng0);
 
 LAB3:    t2 = (t0 + 1032U);
     t3 = *((char **)t2);
@@ -58,7 +58,7 @@ LAB3:    t2 = (t0 + 1032U);
     t7 = (t1 + 12U);
     t8 = *((unsigned int *)t7);
     t9 = (1U * t8);
-    t10 = (4U != t9);
+    t10 = (8U != t9);
     if (t10 == 1)
         goto LAB5;
 
@@ -67,7 +67,7 @@ LAB6:    t11 = (t0 + 2912);
     t13 = *((char **)t12);
     t14 = (t13 + 56U);
     t15 = *((char **)t14);
-    memcpy(t15, t6, 4U);
+    memcpy(t15, t6, 8U);
     xsi_driver_first_trans_fast_port(t11);
 
 LAB2:    t16 = (t0 + 2832);
@@ -76,7 +76,7 @@ LAB2:    t16 = (t0 + 2832);
 LAB1:    return;
 LAB4:    goto LAB2;
 
-LAB5:    xsi_size_not_matching(4U, t9, 0);
+LAB5:    xsi_size_not_matching(8U, t9, 0);
     goto LAB6;
 
 }

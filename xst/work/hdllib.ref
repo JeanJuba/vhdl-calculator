@@ -1,0 +1,14 @@
+EN adder NULL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd sub00/vhpl04 1573422783
+AR commutator behavioral C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd sub00/vhpl03 1573422782
+AR reg behavioral C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd sub00/vhpl01 1573422780
+EN multiplication NULL C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/MAIN_BLOCK.vhd sub00/vhpl12 1573422791
+AR multiplication behavioral C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/MAIN_BLOCK.vhd sub00/vhpl13 1573422792
+EN control_block NULL C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd sub00/vhpl10 1573422787
+EN commutator NULL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd sub00/vhpl02 1573422781
+AR comparator_equal behavioral C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd sub00/vhpl07 1573422786
+AR control_block behavioral C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd sub00/vhpl11 1573422788
+EN comparator_equal NULL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd sub00/vhpl06 1573422785
+AR adder behavioral C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd sub00/vhpl05 1573422784
+AR mult_block behavioral C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd sub00/vhpl09 1573422790
+EN mult_block NULL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd sub00/vhpl08 1573422789
+EN reg NULL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd sub00/vhpl00 1573422779

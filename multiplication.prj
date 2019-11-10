@@ -1,0 +1,7 @@
+vhdl work "register.vhd"
+vhdl work "comparator_equal.vhd"
+vhdl work "commutator.vhd"
+vhdl work "adder.vhd"
+vhdl work "mult_block.vhd"
+vhdl work "../alu-csm-pow/control_block.vhd"
+vhdl work "../alu-csm-pow/MAIN_BLOCK.vhd"

@@ -1,0 +1,8 @@
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "comparator_equal.vhd"
+vhdl isim_temp "commutator.vhd"
+vhdl isim_temp "adder.vhd"
+vhdl isim_temp "mult_block.vhd"
+vhdl isim_temp "../alu-csm-pow/control_block.vhd"
+vhdl isim_temp "../alu-csm-pow/MAIN_BLOCK.vhd"
+vhdl isim_temp "multiplication_tb.vhd"

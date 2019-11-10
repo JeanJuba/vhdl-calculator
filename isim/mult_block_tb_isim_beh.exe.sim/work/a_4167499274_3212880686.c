@@ -21,7 +21,8 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl_calculator/commutator.vhd";
+static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd";
+extern char *IEEE_P_2592010699;
 
 
 
@@ -29,7 +30,7 @@ static void work_a_4167499274_3212880686_p_0(char *t0)
 {
     char *t1;
     char *t2;
-    unsigned char t3;
+    char *t3;
     unsigned char t4;
     char *t5;
     char *t6;
@@ -43,39 +44,42 @@ static void work_a_4167499274_3212880686_p_0(char *t0)
     char *t14;
     char *t15;
     char *t16;
+    char *t17;
 
-LAB0:    xsi_set_current_line(44, ng0);
-    t1 = (t0 + 1352U);
+LAB0:    xsi_set_current_line(15, ng0);
+    t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t3 = *((unsigned char *)t2);
-    t4 = (t3 == (unsigned char)2);
+    t1 = (t0 + 1192U);
+    t3 = *((char **)t1);
+    t1 = ((IEEE_P_2592010699) + 4024);
+    t4 = xsi_vhdl_greater(t1, t2, 8U, t3, 8U);
     if (t4 != 0)
         goto LAB3;
 
 LAB4:
-LAB5:    t10 = (t0 + 1192U);
-    t11 = *((char **)t10);
-    t10 = (t0 + 3496);
-    t12 = (t10 + 56U);
-    t13 = *((char **)t12);
-    t14 = (t13 + 56U);
-    t15 = *((char **)t14);
-    memcpy(t15, t11, 4U);
-    xsi_driver_first_trans_fast_port(t10);
+LAB5:    t11 = (t0 + 1192U);
+    t12 = *((char **)t11);
+    t11 = (t0 + 3336);
+    t13 = (t11 + 56U);
+    t14 = *((char **)t13);
+    t15 = (t14 + 56U);
+    t16 = *((char **)t15);
+    memcpy(t16, t12, 8U);
+    xsi_driver_first_trans_fast_port(t11);
 
-LAB2:    t16 = (t0 + 3400);
-    *((int *)t16) = 1;
+LAB2:    t17 = (t0 + 3240);
+    *((int *)t17) = 1;
 
 LAB1:    return;
-LAB3:    t1 = (t0 + 1032U);
-    t5 = *((char **)t1);
-    t1 = (t0 + 3496);
-    t6 = (t1 + 56U);
-    t7 = *((char **)t6);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    memcpy(t9, t5, 4U);
-    xsi_driver_first_trans_fast_port(t1);
+LAB3:    t5 = (t0 + 1032U);
+    t6 = *((char **)t5);
+    t5 = (t0 + 3336);
+    t7 = (t5 + 56U);
+    t8 = *((char **)t7);
+    t9 = (t8 + 56U);
+    t10 = *((char **)t9);
+    memcpy(t10, t6, 8U);
+    xsi_driver_first_trans_fast_port(t5);
     goto LAB2;
 
 LAB6:    goto LAB2;
@@ -86,7 +90,7 @@ static void work_a_4167499274_3212880686_p_1(char *t0)
 {
     char *t1;
     char *t2;
-    unsigned char t3;
+    char *t3;
     unsigned char t4;
     char *t5;
     char *t6;
@@ -100,39 +104,42 @@ static void work_a_4167499274_3212880686_p_1(char *t0)
     char *t14;
     char *t15;
     char *t16;
+    char *t17;
 
-LAB0:    xsi_set_current_line(45, ng0);
-    t1 = (t0 + 1352U);
+LAB0:    xsi_set_current_line(16, ng0);
+    t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t3 = *((unsigned char *)t2);
-    t4 = (t3 == (unsigned char)2);
+    t1 = (t0 + 1192U);
+    t3 = *((char **)t1);
+    t1 = ((IEEE_P_2592010699) + 4024);
+    t4 = xsi_vhdl_lessthan(t1, t2, 8U, t3, 8U);
     if (t4 != 0)
         goto LAB3;
 
 LAB4:
-LAB5:    t10 = (t0 + 1032U);
-    t11 = *((char **)t10);
-    t10 = (t0 + 3560);
-    t12 = (t10 + 56U);
-    t13 = *((char **)t12);
-    t14 = (t13 + 56U);
-    t15 = *((char **)t14);
-    memcpy(t15, t11, 4U);
-    xsi_driver_first_trans_fast_port(t10);
+LAB5:    t11 = (t0 + 1192U);
+    t12 = *((char **)t11);
+    t11 = (t0 + 3400);
+    t13 = (t11 + 56U);
+    t14 = *((char **)t13);
+    t15 = (t14 + 56U);
+    t16 = *((char **)t15);
+    memcpy(t16, t12, 8U);
+    xsi_driver_first_trans_fast_port(t11);
 
-LAB2:    t16 = (t0 + 3416);
-    *((int *)t16) = 1;
+LAB2:    t17 = (t0 + 3256);
+    *((int *)t17) = 1;
 
 LAB1:    return;
-LAB3:    t1 = (t0 + 1192U);
-    t5 = *((char **)t1);
-    t1 = (t0 + 3560);
-    t6 = (t1 + 56U);
-    t7 = *((char **)t6);
-    t8 = (t7 + 56U);
-    t9 = *((char **)t8);
-    memcpy(t9, t5, 4U);
-    xsi_driver_first_trans_fast_port(t1);
+LAB3:    t5 = (t0 + 1032U);
+    t6 = *((char **)t5);
+    t5 = (t0 + 3400);
+    t7 = (t5 + 56U);
+    t8 = *((char **)t7);
+    t9 = (t8 + 56U);
+    t10 = *((char **)t9);
+    memcpy(t10, t6, 8U);
+    xsi_driver_first_trans_fast_port(t5);
     goto LAB2;
 
 LAB6:    goto LAB2;
