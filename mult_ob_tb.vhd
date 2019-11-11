@@ -29,7 +29,7 @@ ARCHITECTURE behavior OF mult_block_tb IS
  
 BEGIN
   
-   uut: entity work.mult_block PORT MAP (
+   uut: entity work.mult_ob PORT MAP (
 		clock => clock,
 		base_value => base_value,
 		times_value => times_value,

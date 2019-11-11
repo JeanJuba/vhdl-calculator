@@ -1,6 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
+
 entity mult_ob is
     Port ( clock : in  STD_LOGIC;
 			  base_value: in STD_LOGIC_VECTOR(7 downto 0);

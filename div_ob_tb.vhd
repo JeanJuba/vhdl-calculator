@@ -29,7 +29,7 @@ ARCHITECTURE behavior OF div_block_tb IS
  
 BEGIN
  
-   uut: entity work.div_block PORT MAP (
+   uut: entity work.div_ob PORT MAP (
           clock => clock,
           start => start,
           base_value => base_value,
