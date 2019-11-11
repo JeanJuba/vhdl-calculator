@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block_tb.vhd";
+static const char *ng0 = "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob_tb.vhd";
 
 
 
@@ -104,7 +104,7 @@ static void work_a_0542971724_2372691052_p_1(char *t0)
 
 LAB0:    xsi_set_current_line(57, ng0);
 
-LAB3:    t1 = (t0 + 11264);
+LAB3:    t1 = (t0 + 11180);
     t3 = (t0 + 7160);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);
@@ -130,7 +130,7 @@ static void work_a_0542971724_2372691052_p_2(char *t0)
 
 LAB0:    xsi_set_current_line(58, ng0);
 
-LAB3:    t1 = (t0 + 11272);
+LAB3:    t1 = (t0 + 11188);
     t3 = (t0 + 7224);
     t4 = (t3 + 56U);
     t5 = *((char **)t4);

@@ -2,9 +2,9 @@ Command line:
    mult_block_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  57072
+     -socket  57919
 
-Sun Nov 10 18:59:23 2019
+Sun Nov 10 23:20:35 2019
 
 
  Elaboration Time: 0.0625 sec
@@ -20,9 +20,9 @@ Sun Nov 10 18:59:23 2019
  Total Traceable Variables  : 11
  Total Scalar Nets and Variables : 485
 
- Total Simulation Time: 0.21875 sec
+ Total Simulation Time: 0.125 sec
 
- Current Memory Usage: 5179.97 Meg
+ Current Memory Usage: 5494.55 Meg
 
-Sun Nov 10 18:59:40 2019
+Sun Nov 10 23:21:17 2019
 

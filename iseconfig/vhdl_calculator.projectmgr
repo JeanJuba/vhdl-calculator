@@ -10,18 +10,20 @@
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/pow - power_block - Behavioral</ClosedNode>
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/div_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_block.vhd</ClosedNode>
          <ClosedNode>/mult_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|mult_block.vhd</ClosedNode>
          <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/operational - mult_block - Behavioral</ClosedNode>
          <ClosedNode>/power_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|power_block.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>mlt - mult_block - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd)</SelectedItem>
+         <SelectedItem>control - control_block - Behavioral (C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000184000000020000000000000000000000000200000064ffffffff000000810000000300000002000001840000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017d0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>mlt - mult_block - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd)</CurrentItem>
+      <CurrentItem>control - control_block - Behavioral (C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -29,13 +31,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -44,7 +46,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002170000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>adder.vhd</CurrentItem>
    </ItemView>
@@ -56,7 +58,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000012c000000010001000100000000000000000000000064ffffffff0000008100000000000000010000012c0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -64,9 +66,9 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -74,26 +76,34 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012c0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/control_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|control_block_tb.vhd</ClosedNode>
+         <ClosedNode>/div_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_block.vhd</ClosedNode>
          <ClosedNode>/main_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|main_tb.vhd</ClosedNode>
          <ClosedNode>/memoria_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|memoria_tb.vhd</ClosedNode>
          <ClosedNode>/mult_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|mult_block.vhd</ClosedNode>
+         <ClosedNode>/mult_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|mult_block_tb.vhd</ClosedNode>
          <ClosedNode>/mult_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|mult_block_tb.vhd</ClosedNode>
          <ClosedNode>/mult_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|mult_block_tb.vhd/uut - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd</ClosedNode>
+         <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/operational - mult_block - Behavioral</ClosedNode>
+         <ClosedNode>/reg_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|reg_tb.vhd</ClosedNode>
          <ClosedNode>/reg_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|reg_tb.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>div_block_tb - behavior (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_block_tb.vhd)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000135000000020000000000000000000000000200000064ffffffff000000810000000300000002000001350000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e20000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>reg_tb - behavior (C:/Users/jeanw/Desktop/VHDL/vhdl_calculator/reg_tb.vhd)</CurrentItem>
+      <CurrentItem>div_block_tb - behavior (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_block_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -101,26 +111,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000168000000010000000100000000000000000000000064ffffffff000000810000000000000001000001680000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000168000000010000000100000000000000000000000064ffffffff000000810000000000000001000001680000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b0000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b00000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000017f000000a101000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>

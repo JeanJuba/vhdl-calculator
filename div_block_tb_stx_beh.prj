@@ -1,0 +1,7 @@
+vhdl isim_temp "subtractor.vhd"
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "comparator_zero.vhd"
+vhdl isim_temp "adder.vhd"
+vhdl isim_temp "div_block.vhd"
+vhdl isim_temp "div_block_tb.vhd"

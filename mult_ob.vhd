@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity mult_block is
+entity mult_ob is
     Port ( clock : in  STD_LOGIC;
 			  base_value: in STD_LOGIC_VECTOR(7 downto 0);
 			  times_value: in STD_LOGIC_VECTOR(7 downto 0);
@@ -15,9 +15,9 @@ entity mult_block is
 			  reset_result : in  STD_LOGIC;
            result : out  STD_LOGIC_VECTOR(7 downto 0);
            ready : out  STD_LOGIC);
-end mult_block;
+end mult_ob;
 
-architecture Behavioral of mult_block is
+architecture Behavioral of mult_ob is
 
 	component reg 
     Port (clock 	: in  STD_LOGIC;
