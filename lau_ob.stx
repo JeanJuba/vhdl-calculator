@@ -1,0 +1,63 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd" in Library work.
+Architecture behavioral of Entity mux is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd" in Library work.
+Architecture behavioral of Entity subtractor is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd" in Library work.
+Architecture behavioral of Entity comparator_zero is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd" in Library work.
+Architecture behavioral of Entity commutator is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd" in Library work.
+Architecture behavioral of Entity comparator_equal is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd" in Library work.
+Architecture behavioral of Entity div_cb is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" in Library work.
+Architecture behavioral of Entity div_ob is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd" in Library work.
+Architecture behavioral of Entity mult_cb is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" in Library work.
+Architecture behavioral of Entity mult_ob is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd" in Library work.
+Architecture behavioral of Entity multiplication is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd" in Library work.
+Architecture behavioral of Entity division is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd" in Library work.
+Architecture behavioral of Entity mux_2bits is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd" in Library work.
+Entity <lau_ob> compiled.
+Entity <lau_ob> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.54 secs
+ 
+--> 
+
+Total memory usage is 4499900 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -54,8 +54,9 @@ architecture Behavioral of div_ob is
            s 	: out  STD_LOGIC_VECTOR(7 downto 0));
 	end component;
 	
+	signal is_base_zero : STD_LOGIC;
 	signal base_reg_value, counter_reg_val, divider_reg_value, result_reg_value : STD_LOGIC_VECTOR(7 downto 0);
-	signal adder_counter_val, sub_result, mux_result: STD_LOGIC_VECTOR (7 downto 0);
+	signal adder_counter_val, sub_result, mux_result, counter_adition: STD_LOGIC_VECTOR (7 downto 0);
 	
 begin
 
@@ -67,10 +68,12 @@ begin
 	result_reg : reg port map(clock, set_result, reset_result, mux_result, result_reg_value);
 	
 	subtraction : subtractor port map (result_reg_value, divider_reg_value, sub_result);
-	add_counter : adder port map (counter_reg_val, "00000001", adder_counter_val);
+	special_comparator: comparator_zero port map (base_reg_value, is_base_zero);
+	special_mux : mux port map("00000001", "00000000", is_base_zero, counter_adition);
+	add_counter : adder port map (counter_reg_val, counter_adition, adder_counter_val);
 	comparator: comparator_zero port map (sub_result, ready);
 	
-	result <= counter_reg_val;
+	result <= adder_counter_val;
 	
 end Behavioral;
 
