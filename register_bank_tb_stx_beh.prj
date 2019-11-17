@@ -1,0 +1,4 @@
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "mux_3bits.vhd"
+vhdl isim_temp "register_bank.vhd"
+vhdl isim_temp "register_bank_tb.vhd"

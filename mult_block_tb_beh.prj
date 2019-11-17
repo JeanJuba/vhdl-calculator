@@ -1,6 +1,0 @@
-vhdl work "register.vhd"
-vhdl work "comparator_equal.vhd"
-vhdl work "commutator.vhd"
-vhdl work "adder.vhd"
-vhdl work "mult_ob.vhd"
-vhdl work "mult_ob_tb.vhd"

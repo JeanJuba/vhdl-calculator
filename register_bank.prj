@@ -1,0 +1,3 @@
+vhdl work "register.vhd"
+vhdl work "mux_3bits.vhd"
+vhdl work "register_bank.vhd"

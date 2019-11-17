@@ -1,4 +1,4 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division_tb_isim_beh.exe -prj C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division_tb_beh.prj work.division_tb 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb_isim_beh.exe" -prj "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb_beh.prj" "work.lau_ob_tb" 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -7,31 +7,45 @@ Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd" i
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd" into library work
 Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd" into library work
-Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division_tb.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd" into library work
+Parsing VHDL file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
-Compiling architecture behavioral of entity div_cb [div_cb_default]
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity reg [reg_default]
-Compiling architecture behavioral of entity mux [mux_default]
-Compiling architecture behavioral of entity subtractor [subtractor_default]
-Compiling architecture behavioral of entity comparator_zero [comparator_zero_default]
+Compiling package numeric_std
 Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity subtractor [subtractor_default]
+Compiling architecture behavioral of entity mult_cb [mult_cb_default]
+Compiling architecture behavioral of entity reg [reg_default]
+Compiling architecture behavioral of entity commutator [commutator_default]
+Compiling architecture behavioral of entity comparator_equal [comparator_equal_default]
+Compiling architecture behavioral of entity mult_ob [mult_ob_default]
+Compiling architecture behavioral of entity multiplication [multiplication_default]
+Compiling architecture behavioral of entity div_cb [div_cb_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity comparator_zero [comparator_zero_default]
 Compiling architecture behavioral of entity div_ob [div_ob_default]
 Compiling architecture behavioral of entity division [division_default]
-Compiling architecture behavior of entity division_tb
+Compiling architecture behavioral of entity mux_2bits [mux_2bits_default]
+Compiling architecture behavioral of entity lau_ob [lau_ob_default]
+Compiling architecture behavior of entity lau_ob_tb
 Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
-WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: O sistema não pode encontrar o caminho especificado, "isim\division_tb_isim_beh.exe.sim\libPortability.dll".
-Compiled 22 VHDL Units
-Built simulation executable C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division_tb_isim_beh.exe
-Fuse Memory Usage: 36892 KB
-Fuse CPU Usage: 905 ms
+Waiting for 8 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: O sistema não pode encontrar o caminho especificado, "isim\lau_ob_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 36 VHDL Units
+Built simulation executable C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb_isim_beh.exe
+Fuse Memory Usage: 37548 KB
+Fuse CPU Usage: 937 ms

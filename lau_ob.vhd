@@ -65,7 +65,7 @@ begin
 	addition: adder port map (first_value, second_value, addition_result);
 	subtraction: subtractor port map (first_value, second_value, subtraction_result);
 	multiplier: multiplication port map (clock, reset, start, first_value, second_value, multiplication_result, multiplication_ready);
-	divider: division port map (clock, reset, start, first_value, second_value, division_result);
+	divider: division port map (clock, reset, start, first_value, second_value, division_result, division_ready);
 	
 	mux_2b : mux_2bits port map (addition_result, subtraction_result, multiplication_result, division_result, mux_option, result);
 	

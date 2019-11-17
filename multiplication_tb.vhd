@@ -46,6 +46,6 @@ BEGIN
    reset <= '0';
    start <= '0', '1' after 10 ns, '0' after 20 ns;
    first_value  <= "00001000";
-   second_value <= "00000010";
+   second_value <= "00000101";
 
 END;
