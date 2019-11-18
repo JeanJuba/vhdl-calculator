@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb_isim_beh.exe" -prj "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob_tb_beh.prj" "work.lau_ob_tb" 
+-intstyle "ise" -incremental -o "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_isim_beh.exe" -prj "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_beh.prj" "work.lau_block_tb" 

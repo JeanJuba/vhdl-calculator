@@ -1,4 +1,4 @@
-V3 79
+V3 93
 FL C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd 2019/11/10.18:18:04 P.20131013
 EN work/control_block 1573422787 \
       FL C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/control_block.vhd \
@@ -8,45 +8,45 @@ AR work/control_block/Behavioral 1573422788 \
       EN work/control_block 1573422787
 FL C:/Users/jeanw/Desktop/VHDL/alu-csm-pow/MAIN_BLOCK.vhd 2019/11/10.18:52:55 P.20131013
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd 2019/11/10.14:32:45 P.20131013
-EN work/adder 1573519364 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd \
+EN work/adder 1574043967 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/adder/Behavioral 1573519365 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd EN work/adder 1573519364
+AR work/adder/Behavioral 1574043968 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd EN work/adder 1574043967
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd 2019/11/10.16:45:15 P.20131013
-EN work/commutator 1573519366 \
+EN work/commutator 1574043969 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/commutator/Behavioral 1573519367 \
+AR work/commutator/Behavioral 1574043970 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd \
-      EN work/commutator 1573519366
+      EN work/commutator 1574043969
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd 2019/11/10.16:11:11 P.20131013
-EN work/comparator_equal 1573519368 \
+EN work/comparator_equal 1574043971 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/comparator_equal/Behavioral 1573519369 \
+AR work/comparator_equal/Behavioral 1574043972 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd \
-      EN work/comparator_equal 1573519368
+      EN work/comparator_equal 1574043971
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd 2019/11/10.14:20:58 P.20131013
-EN work/comparator_zero 1573519362 \
+EN work/comparator_zero 1574043965 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/comparator_zero/Behavioral 1573519363 \
+AR work/comparator_zero/Behavioral 1574043966 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd \
-      EN work/comparator_zero 1573519362
-FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd 2019/11/16.23:03:06 P.20131013
-EN work/demux_3bits 1573956198 \
+      EN work/comparator_zero 1574043965
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd 2019/11/16.23:03:24 P.20131013
+EN work/demux_3bits 1574043987 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/demux_3bits/Behavioral 1573956199 \
+AR work/demux_3bits/Behavioral 1574043988 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd \
-      EN work/demux_3bits 1573956198
+      EN work/demux_3bits 1574043987
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd 2019/11/11.00:52:12 P.20131013
-EN work/division 1573519380 \
+EN work/division 1574043983 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/division/Behavioral 1573519381 \
+AR work/division/Behavioral 1574043984 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd \
-      EN work/division 1573519380 CP div_cb CP div_ob
+      EN work/division 1574043983 CP div_cb CP div_ob
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_block.vhd 2019/11/10.20:25:20 P.20131013
 EN work/div_block 1573428334 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_block.vhd \
@@ -55,32 +55,51 @@ AR work/div_block/Behavioral 1573428335 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_block.vhd \
       EN work/div_block 1573428334 CP reg CP subtractor CP adder CP comparator_zero
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd 2019/11/11.00:52:43 P.20131013
-EN work/div_cb 1573519370 \
+EN work/div_cb 1574043973 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/div_cb/Behavioral 1573519371 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd EN work/div_cb 1573519370
+AR work/div_cb/Behavioral 1574043974 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd EN work/div_cb 1574043973
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd 2019/11/11.20:44:29 P.20131013
-EN work/div_ob 1573519372 \
+EN work/div_ob 1574043975 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/div_ob/Behavioral 1573519373 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd EN work/div_ob 1573519372 \
+AR work/div_ob/Behavioral 1574043976 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd EN work/div_ob 1574043975 \
       CP reg CP mux CP subtractor CP comparator_zero CP adder
-FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd 2019/11/11.21:42:31 P.20131013
-EN work/lau_ob 1573519384 \
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd 2019/11/17.23:25:52 P.20131013
+EN work/lau_block 1574043999 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lau_block/Behavioral 1574044000 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd \
+      EN work/lau_block 1574043999 CP memory CP register_bank CP lau_ob CP lau_cb
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd 2019/11/17.23:15:30 P.20131013
+EN work/lau_cb 1574043997 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/lau_cb/Behavioral 1574043998 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd EN work/lau_cb 1574043997
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd 2019/11/17.00:22:56 P.20131013
+EN work/lau_ob 1574043995 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/lau_ob/Behavioral 1573519385 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd EN work/lau_ob 1573519384 \
+AR work/lau_ob/Behavioral 1574043996 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd EN work/lau_ob 1574043995 \
       CP adder CP subtractor CP multiplication CP division CP mux_2bits
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd 2019/11/17.20:40:21 P.20131013
+EN work/memory 1574043991 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/memory/Behavioral 1574043992 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd EN work/memory 1574043991
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd 2019/11/10.23:36:09 P.20131013
-EN work/multiplication 1573519378 \
+EN work/multiplication 1574043981 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/multiplication/Behavioral 1573519379 \
+AR work/multiplication/Behavioral 1574043982 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd \
-      EN work/multiplication 1573519378 CP mult_cb CP mult_ob
+      EN work/multiplication 1574043981 CP mult_cb CP mult_ob
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd 2019/11/10.18:30:38 P.20131013
 EN work/mult_block 1573422789 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_block.vhd \
@@ -90,55 +109,55 @@ AR work/mult_block/Behavioral 1573422790 \
       EN work/mult_block 1573422789 CP reg CP commutator CP adder \
       CP comparator_equal
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd 2019/11/10.23:35:51 P.20131013
-EN work/mult_cb 1573519374 \
+EN work/mult_cb 1574043977 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mult_cb/Behavioral 1573519375 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd EN work/mult_cb 1573519374
+AR work/mult_cb/Behavioral 1574043978 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd EN work/mult_cb 1574043977
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd 2019/11/11.00:17:18 P.20131013
-EN work/mult_ob 1573519376 \
+EN work/mult_ob 1574043979 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mult_ob/Behavioral 1573519377 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd EN work/mult_ob 1573519376 \
+AR work/mult_ob/Behavioral 1574043980 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd EN work/mult_ob 1574043979 \
       CP reg CP commutator CP adder CP comparator_equal
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd 2019/11/10.14:32:22 P.20131013
-EN work/mux 1573519358 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd \
+EN work/mux 1574043961 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mux/Behavioral 1573519359 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd EN work/mux 1573519358
+AR work/mux/Behavioral 1574043962 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd EN work/mux 1574043961
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd 2019/11/11.21:42:08 P.20131013
-EN work/mux_2bits 1573519382 \
+EN work/mux_2bits 1574043985 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mux_2bits/Behavioral 1573519383 \
+AR work/mux_2bits/Behavioral 1574043986 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd \
-      EN work/mux_2bits 1573519382
+      EN work/mux_2bits 1574043985
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_3bits.vhd 2019/11/16.20:59:36 P.20131013
-EN work/mux_3bits 1573949435 \
+EN work/mux_3bits 1574043989 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_3bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mux_3bits/Behavioral 1573949436 \
+AR work/mux_3bits/Behavioral 1574043990 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_3bits.vhd \
-      EN work/mux_3bits 1573949435
+      EN work/mux_3bits 1574043989
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd 2019/11/10.14:31:28 P.20131013
-EN work/reg 1573956045 \
+EN work/reg 1574043959 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/reg/Behavioral 1573956046 \
-      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd EN work/reg 1573956045
-FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd 2019/11/16.21:10:19 P.20131013
-EN work/register_bank 1573949437 \
+AR work/reg/Behavioral 1574043960 \
+      FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd EN work/reg 1574043959
+FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd 2019/11/16.23:14:02 P.20131013
+EN work/register_bank 1574043993 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/register_bank/Behavioral 1573949438 \
+AR work/register_bank/Behavioral 1574043994 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd \
-      EN work/register_bank 1573949437 CP reg CP mux_3bits
+      EN work/register_bank 1574043993 CP demux_3bits CP reg CP mux_3bits
 FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd 2019/11/10.14:33:19 P.20131013
-EN work/subtractor 1573519360 \
+EN work/subtractor 1574043963 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/subtractor/Behavioral 1573519361 \
+AR work/subtractor/Behavioral 1574043964 \
       FL C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd \
-      EN work/subtractor 1573519360
+      EN work/subtractor 1574043963

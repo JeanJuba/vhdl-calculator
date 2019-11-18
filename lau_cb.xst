@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/xst"
+elaborate
+-ifn lau_cb.prj
+-ifmt mixed
