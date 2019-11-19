@@ -12,6 +12,10 @@
          <ClosedNode>/MAIN_BLOCK - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|MAIN_BLOCK.vhd/mlt - mult_block - Behavioral</ClosedNode>
          <ClosedNode>/div_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_block.vhd</ClosedNode>
          <ClosedNode>/div_ob - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_ob.vhd</ClosedNode>
+         <ClosedNode>/lau_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block.vhd/ob - lau_ob - Behavioral/divider - division - Behavioral</ClosedNode>
+         <ClosedNode>/lau_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block.vhd/ob - lau_ob - Behavioral/multiplier - multiplication - Behavioral/operational - mult_ob - Behavioral</ClosedNode>
+         <ClosedNode>/lau_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block.vhd/regs - register_bank - Behavioral</ClosedNode>
+         <ClosedNode>/lau_ob - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob.vhd</ClosedNode>
          <ClosedNode>/lau_ob - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob.vhd/divider - division - Behavioral</ClosedNode>
          <ClosedNode>/lau_ob - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob.vhd/multiplier - multiplication - Behavioral/operational - mult_ob - Behavioral</ClosedNode>
          <ClosedNode>/mult_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|mult_block.vhd</ClosedNode>
@@ -20,13 +24,14 @@
          <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|alu-csm-pow|MAIN_BLOCK.vhd/operational - mult_ob - Behavioral</ClosedNode>
          <ClosedNode>/multiplication - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|multiplication.vhd</ClosedNode>
          <ClosedNode>/power_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl_calculator|power_block.vhd</ClosedNode>
+         <ClosedNode>/register_bank - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|register_bank.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>control - mult_cb - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000018e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000018e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a20000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>control - mult_cb - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd)</CurrentItem>
    </ItemView>
@@ -36,22 +41,22 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000158000000010000000100000000000000000000000064ffffffff000000810000000000000001000001580000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >10</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000279000000040101000100000000000000000000000064ffffffff0000008100000000000000040000019700000001000000000000002100000001000000000000005d0000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000019700000001000000000000002100000001000000000000005d0000000100000000000000bd0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>register_bank.vhd</CurrentItem>
    </ItemView>
@@ -83,7 +88,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000158000000010000000100000000000000000000000064ffffffff000000810000000000000001000001580000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -95,9 +100,14 @@
          <ClosedNode>/div_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_block.vhd</ClosedNode>
          <ClosedNode>/div_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|div_ob_tb.vhd</ClosedNode>
          <ClosedNode>/division - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|division.vhd</ClosedNode>
+         <ClosedNode>/division_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|division_tb.vhd</ClosedNode>
          <ClosedNode>/division_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|division_tb.vhd/uut - division - Behavioral</ClosedNode>
          <ClosedNode>/division_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|division_tb.vhd/uut - division - Behavioral/operational - div_ob - Behavioral</ClosedNode>
          <ClosedNode>/division_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|division_tb.vhd/uut - multiplication - Behavioral</ClosedNode>
+         <ClosedNode>/lau_block - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block.vhd</ClosedNode>
+         <ClosedNode>/lau_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block_tb.vhd/uut - lau_block - Behavioral/ob - lau_ob - Behavioral/divider - division - Behavioral</ClosedNode>
+         <ClosedNode>/lau_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block_tb.vhd/uut - lau_block - Behavioral/ob - lau_ob - Behavioral/multiplier - multiplication - Behavioral/operational - mult_ob - Behavioral</ClosedNode>
+         <ClosedNode>/lau_block_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_block_tb.vhd/uut - lau_block - Behavioral/regs - register_bank - Behavioral</ClosedNode>
          <ClosedNode>/lau_ob - Behavioral C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob.vhd</ClosedNode>
          <ClosedNode>/lau_ob_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob_tb.vhd/uut - lau_ob - Behavioral/divider - division - Behavioral</ClosedNode>
          <ClosedNode>/lau_ob_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|lau_ob_tb.vhd/uut - lau_ob - Behavioral/multiplier - multiplication - Behavioral</ClosedNode>
@@ -119,13 +129,13 @@
          <ClosedNode>/register_bank_tb - behavior C:|Users|jeanw|Desktop|VHDL|vhdl-calculator|register_bank_tb.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>uut - division - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd)</SelectedItem>
+         <SelectedItem>lau_block_tb - behavior (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a20000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>uut - division - Behavioral (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd)</CurrentItem>
+      <CurrentItem>lau_block_tb - behavior (C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -133,29 +143,29 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000158000000010000000100000000000000000000000064ffffffff000000810000000000000001000001580000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000158000000010000000100000000000000000000000064ffffffff000000810000000000000001000001580000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013d0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000017c000000a401000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>

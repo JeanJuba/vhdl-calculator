@@ -87,7 +87,7 @@ begin
 									first_value, second_value, memory_request, register_index, set_register, reset_operation, mux_option, start_operation,
 									value_to_store, ready);
 	
-	result <= value_to_store;
+	result <= value_stored;
 
 end Behavioral;
 

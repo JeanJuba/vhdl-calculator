@@ -1,4 +1,4 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_isim_beh.exe" -prj "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_beh.prj" "work.lau_block_tb" 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_isim_beh.exe -prj C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_beh.prj work.lau_block_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -55,9 +55,9 @@ Compiling architecture behavioral of entity lau_cb [lau_cb_default]
 Compiling architecture behavioral of entity lau_block [lau_block_default]
 Compiling architecture behavior of entity lau_block_tb
 Time Resolution for simulation is 1ps.
-Waiting for 14 sub-compilation(s) to finish...
+Waiting for 10 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: O sistema não pode encontrar o caminho especificado, "isim\lau_block_tb_isim_beh.exe.sim\libPortability.dll".
 Compiled 48 VHDL Units
 Built simulation executable C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block_tb_isim_beh.exe
-Fuse Memory Usage: 39068 KB
-Fuse CPU Usage: 1155 ms
+Fuse Memory Usage: 38972 KB
+Fuse CPU Usage: 1296 ms

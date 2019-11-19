@@ -32,6 +32,7 @@ architecture Behavioral of lau_cb is
 																			STORE, FINISH);
 	
 	signal estado : state_type;
+	signal last_register : STD_LOGIC_VECTOR(2 downto 0);
 begin
 
 process (clock, reset)
@@ -382,9 +383,13 @@ process (estado)
 			start_operation <= '0';
          result <= operation_value;
          ready <= '0';	
+			last_register <= instruction(2 downto 0);
 			
 		when FINISH =>
-			
+			ready <= '1';
+			register_index <= last_register;
+			set_register   <= '0';
+			result <= register_value;
 		
 	end case;
 
