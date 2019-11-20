@@ -2,14 +2,14 @@ Command line:
    lau_block_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  52035
+     -socket  53354
 
-Mon Nov 18 21:52:43 2019
+Tue Nov 19 21:34:54 2019
 
 
  Elaboration Time: 0.09375 sec
 
- Current Memory Usage: 5180.11 Meg
+ Current Memory Usage: 5180.1 Meg
 
  Total Signals          : 352
  Total Nets             : 437
@@ -18,11 +18,11 @@ Mon Nov 18 21:52:43 2019
  Total Primitive Blocks : 39
  Total Processes        : 59
  Total Traceable Variables  : 17
- Total Scalar Nets and Variables : 1100
+ Total Scalar Nets and Variables : 1008
 
- Total Simulation Time: 0.09375 sec
+ Total Simulation Time: 0.125 sec
 
- Current Memory Usage: 5180.11 Meg
+ Current Memory Usage: 5180.1 Meg
 
-Mon Nov 18 21:52:47 2019
+Tue Nov 19 21:35:02 2019
 

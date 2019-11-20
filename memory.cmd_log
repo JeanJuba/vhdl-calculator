@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.xst" -ofn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.syr" 

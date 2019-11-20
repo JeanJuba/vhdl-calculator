@@ -81,8 +81,8 @@ architecture Behavioral of lau_block is
 begin
 
 	mem : memory port map (clock, reset_operation, memory_request, memory_value, memory_empty);
-	regs : register_bank port map (clock, set_register, reset_operation, value_to_store, register_index, value_stored);
-	ob : lau_ob port map (clock, reset, start_operation, mux_option, first_value, second_value, division_ready, multiplication_ready, operation_result);
+	regs : register_bank port map (clock, set_register, reset, value_to_store, register_index, value_stored);
+	ob : lau_ob port map (clock, reset_operation, start_operation, mux_option, first_value, second_value, division_ready, multiplication_ready, operation_result);
 	cb : lau_cb port map (clock, start, reset, memory_empty, memory_value, value_stored, operation_result, multiplication_ready, division_ready,
 									first_value, second_value, memory_request, register_index, set_register, reset_operation, mux_option, start_operation,
 									value_to_store, ready);

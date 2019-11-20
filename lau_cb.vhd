@@ -378,7 +378,7 @@ process (estado)
 			memory_request <= '0';
 			register_index <= instruction(2 downto 0);
 			set_register   <= '1';
-			reset_operation <= '0';
+			reset_operation <= '1';
 			operation <= instruction(22 downto 21);
 			start_operation <= '0';
          result <= operation_value;

@@ -1,0 +1,909 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: lau_block.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "lau_block.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "lau_block"
+Output Format                      : NGC
+Target Device                      : xc3s1000-4-ft256
+
+---- Source Options
+Top Module Name                    : lau_block
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd" in Library work.
+Architecture behavioral of Entity mux is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd" in Library work.
+Architecture behavioral of Entity subtractor is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd" in Library work.
+Architecture behavioral of Entity comparator_zero is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd" in Library work.
+Architecture behavioral of Entity adder is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd" in Library work.
+Architecture behavioral of Entity commutator is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd" in Library work.
+Architecture behavioral of Entity comparator_equal is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd" in Library work.
+Architecture behavioral of Entity div_cb is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" in Library work.
+Architecture behavioral of Entity div_ob is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd" in Library work.
+Architecture behavioral of Entity mult_cb is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" in Library work.
+Architecture behavioral of Entity mult_ob is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd" in Library work.
+Architecture behavioral of Entity multiplication is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd" in Library work.
+Architecture behavioral of Entity division is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd" in Library work.
+Architecture behavioral of Entity mux_2bits is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd" in Library work.
+Architecture behavioral of Entity demux_3bits is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_3bits.vhd" in Library work.
+Architecture behavioral of Entity mux_3bits is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd" in Library work.
+Entity <memory> compiled.
+Entity <memory> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" in Library work.
+Architecture behavioral of Entity register_bank is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd" in Library work.
+Architecture behavioral of Entity lau_ob is up to date.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd" in Library work.
+Entity <lau_cb> compiled.
+Entity <lau_cb> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd" in Library work.
+Entity <lau_block> compiled.
+Entity <lau_block> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <lau_block> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <memory> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <register_bank> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <lau_ob> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <lau_cb> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <demux_3bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_3bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <subtractor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <multiplication> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <division> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_2bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mult_cb> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mult_ob> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <div_cb> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <div_ob> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <commutator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <comparator_equal> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <subtractor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <comparator_zero> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <lau_block> in library <work> (Architecture <behavioral>).
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd" line 11: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+Entity <lau_block> analyzed. Unit <lau_block> generated.
+
+Analyzing Entity <memory> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd" line 25: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <mem_value>
+Entity <memory> analyzed. Unit <memory> generated.
+
+Analyzing Entity <register_bank> in library <work> (Architecture <behavioral>).
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+Entity <register_bank> analyzed. Unit <register_bank> generated.
+
+Analyzing Entity <demux_3bits> in library <work> (Architecture <behavioral>).
+Entity <demux_3bits> analyzed. Unit <demux_3bits> generated.
+
+Analyzing Entity <reg> in library <work> (Architecture <behavioral>).
+Entity <reg> analyzed. Unit <reg> generated.
+
+Analyzing Entity <mux_3bits> in library <work> (Architecture <behavioral>).
+Entity <mux_3bits> analyzed. Unit <mux_3bits> generated.
+
+Analyzing Entity <lau_ob> in library <work> (Architecture <behavioral>).
+Entity <lau_ob> analyzed. Unit <lau_ob> generated.
+
+Analyzing Entity <adder> in library <work> (Architecture <behavioral>).
+Entity <adder> analyzed. Unit <adder> generated.
+
+Analyzing Entity <subtractor> in library <work> (Architecture <behavioral>).
+Entity <subtractor> analyzed. Unit <subtractor> generated.
+
+Analyzing Entity <multiplication> in library <work> (Architecture <behavioral>).
+Entity <multiplication> analyzed. Unit <multiplication> generated.
+
+Analyzing Entity <mult_cb> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd" line 68: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <temp_result>, <ready>
+Entity <mult_cb> analyzed. Unit <mult_cb> generated.
+
+Analyzing Entity <mult_ob> in library <work> (Architecture <behavioral>).
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+Entity <mult_ob> analyzed. Unit <mult_ob> generated.
+
+Analyzing Entity <commutator> in library <work> (Architecture <behavioral>).
+Entity <commutator> analyzed. Unit <commutator> generated.
+
+Analyzing Entity <comparator_equal> in library <work> (Architecture <behavioral>).
+Entity <comparator_equal> analyzed. Unit <comparator_equal> generated.
+
+Analyzing Entity <division> in library <work> (Architecture <behavioral>).
+Entity <division> analyzed. Unit <division> generated.
+
+Analyzing Entity <div_cb> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd" line 65: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <temp_result>, <ready>
+Entity <div_cb> analyzed. Unit <div_cb> generated.
+
+Analyzing Entity <div_ob> in library <work> (Architecture <behavioral>).
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+INFO:Xst:1739 - HDL ADVISOR - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd" line 9: declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output.
+Entity <div_ob> analyzed. Unit <div_ob> generated.
+
+Analyzing Entity <mux> in library <work> (Architecture <behavioral>).
+Entity <mux> analyzed. Unit <mux> generated.
+
+Analyzing Entity <comparator_zero> in library <work> (Architecture <behavioral>).
+Entity <comparator_zero> analyzed. Unit <comparator_zero> generated.
+
+Analyzing Entity <mux_2bits> in library <work> (Architecture <behavioral>).
+Entity <mux_2bits> analyzed. Unit <mux_2bits> generated.
+
+Analyzing Entity <lau_cb> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd" line 151: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <instruction>, <register_value>, <operation_value>
+Entity <lau_cb> analyzed. Unit <lau_cb> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <memory>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd".
+    Found 7x23-bit ROM for signal <mem_value$mux0000> created at line 33.
+    Found 32-bit up counter for signal <counter>.
+    Found 23-bit register for signal <mem_value>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  23 D-type flip-flop(s).
+Unit <memory> synthesized.
+
+
+Synthesizing Unit <lau_cb>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_cb.vhd".
+    Found finite state machine <FSM_0> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 20                                             |
+    | Transitions        | 29                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 20                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Clock enable       | reset                     (negative)           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 3-bit latch for signal <last_register>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <start_operation>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 2-bit latch for signal <operation>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 8-bit latch for signal <first_value>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <memory_request>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <reset_operation>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 8-bit latch for signal <second_value>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <lau_cb> synthesized.
+
+
+Synthesizing Unit <demux_3bits>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/demux_3bits.vhd".
+Unit <demux_3bits> synthesized.
+
+
+Synthesizing Unit <reg>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register.vhd".
+    Found 8-bit register for signal <stored>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <reg> synthesized.
+
+
+Synthesizing Unit <mux_3bits>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_3bits.vhd".
+    Found 8-bit 8-to-1 multiplexer for signal <s>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <mux_3bits> synthesized.
+
+
+Synthesizing Unit <adder>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/adder.vhd".
+    Found 8-bit adder for signal <s>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <adder> synthesized.
+
+
+Synthesizing Unit <subtractor>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/subtractor.vhd".
+    Found 8-bit subtractor for signal <s$addsub0000> created at line 17.
+    Found 8-bit comparator greater for signal <s$cmp_gt0000> created at line 17.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <subtractor> synthesized.
+
+
+Synthesizing Unit <mux_2bits>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux_2bits.vhd".
+    Found 8-bit 4-to-1 multiplexer for signal <s>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <mux_2bits> synthesized.
+
+
+Synthesizing Unit <mult_cb>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_cb.vhd".
+    Found finite state machine <FSM_1> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <mult_cb> synthesized.
+
+
+Synthesizing Unit <commutator>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/commutator.vhd".
+    Found 8-bit comparator greater for signal <l$cmp_gt0000> created at line 15.
+    Found 8-bit comparator less for signal <r$cmp_lt0000> created at line 16.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <commutator> synthesized.
+
+
+Synthesizing Unit <comparator_equal>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_equal.vhd".
+    Found 8-bit comparator equal for signal <result$cmp_eq0000> created at line 14.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <comparator_equal> synthesized.
+
+
+Synthesizing Unit <div_cb>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_cb.vhd".
+    Found finite state machine <FSM_2> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <div_cb> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mux.vhd".
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <comparator_zero>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/comparator_zero.vhd".
+Unit <comparator_zero> synthesized.
+
+
+Synthesizing Unit <register_bank>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.vhd".
+WARNING:Xst:1780 - Signal <set_signal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <register_bank> synthesized.
+
+
+Synthesizing Unit <mult_ob>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/mult_ob.vhd".
+Unit <mult_ob> synthesized.
+
+
+Synthesizing Unit <div_ob>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/div_ob.vhd".
+Unit <div_ob> synthesized.
+
+
+Synthesizing Unit <multiplication>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/multiplication.vhd".
+Unit <multiplication> synthesized.
+
+
+Synthesizing Unit <division>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/division.vhd".
+Unit <division> synthesized.
+
+
+Synthesizing Unit <lau_ob>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.vhd".
+Unit <lau_ob> synthesized.
+
+
+Synthesizing Unit <lau_block>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_block.vhd".
+Unit <lau_block> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 7x23-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 8-bit adder                                           : 4
+ 8-bit subtractor                                      : 2
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 17
+ 23-bit register                                       : 1
+ 8-bit register                                        : 16
+# Latches                                              : 7
+ 1-bit latch                                           : 3
+ 2-bit latch                                           : 1
+ 3-bit latch                                           : 1
+ 8-bit latch                                           : 2
+# Comparators                                          : 5
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 3
+ 8-bit comparator less                                 : 1
+# Multiplexers                                         : 2
+ 8-bit 4-to-1 multiplexer                              : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <ob/divider/control/estado/FSM> on signal <estado[1:3]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 000
+ configure | 001
+ check     | 011
+ divide    | 110
+ display   | 010
+-----------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <ob/multiplier/control/estado/FSM> on signal <estado[1:3]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 000
+ configure | 001
+ check     | 011
+ multiply  | 110
+ display   | 010
+-----------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <cb/estado/FSM> on signal <estado[1:20]> with one-hot encoding.
+------------------------------------------------
+ State                  | Encoding
+------------------------------------------------
+ idle                   | 00000000000000000001
+ configure              | 00000000000000000010
+ request                | 00000000000000000100
+ decode_first           | 00000000000000001000
+ get_first_value        | 00000000000000100000
+ send_first_value_mem   | 00000000000010000000
+ send_first_value_inst  | 00000000000001000000
+ decode_second          | 00000000000100000000
+ get_second_value       | 00000000001000000000
+ send_second_value_mem  | 00000000100000000000
+ send_second_value_inst | 00000000010000000000
+ check_op               | 00000001000000000000
+ sum                    | 00000010000000000000
+ subtract               | 00000100000000000000
+ multiply               | 00001000000000000000
+ divide                 | 00010000000000000000
+ check_mult             | 01000000000000000000
+ check_divide           | 10000000000000000000
+ store                  | 00100000000000000000
+ finish                 | 00000000000000010000
+------------------------------------------------
+
+Synthesizing (advanced) Unit <memory>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_mem_value_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# ROMs                                                 : 1
+ 7x23-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 8-bit adder                                           : 4
+ 8-bit subtractor                                      : 2
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 151
+ Flip-Flops                                            : 151
+# Latches                                              : 7
+ 1-bit latch                                           : 3
+ 2-bit latch                                           : 1
+ 3-bit latch                                           : 1
+ 8-bit latch                                           : 2
+# Comparators                                          : 5
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 3
+ 8-bit comparator less                                 : 1
+# Multiplexers                                         : 2
+ 8-bit 4-to-1 multiplexer                              : 1
+ 8-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <counter_3> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_4> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_5> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_6> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_7> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_8> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_9> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_10> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_11> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_12> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_13> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_14> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_15> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_16> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_17> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_18> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_19> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_20> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_21> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_22> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_23> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_24> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_25> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_26> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_27> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_28> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_29> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_30> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_31> of sequential type is unconnected in block <memory>.
+INFO:Xst:2261 - The FF/Latch <mem_value_6> in Unit <memory> is equivalent to the following 9 FFs/Latches, which will be removed : <mem_value_7> <mem_value_8> <mem_value_9> <mem_value_10> <mem_value_11> <mem_value_16> <mem_value_17> <mem_value_18> <mem_value_19> 
+
+Optimizing unit <lau_block> ...
+
+Optimizing unit <memory> ...
+
+Optimizing unit <reg> ...
+
+Optimizing unit <commutator> ...
+
+Optimizing unit <lau_cb> ...
+
+Optimizing unit <register_bank> ...
+
+Optimizing unit <mult_ob> ...
+
+Optimizing unit <div_ob> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block lau_block, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 171
+ Flip-Flops                                            : 171
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : lau_block.ngr
+Top Level Output File Name         : lau_block
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 387
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 2
+#      LUT2                        : 69
+#      LUT2_D                      : 1
+#      LUT3                        : 39
+#      LUT3_D                      : 1
+#      LUT4                        : 138
+#      LUT4_D                      : 8
+#      LUT4_L                      : 7
+#      MUXCY                       : 46
+#      MUXF5                       : 26
+#      MUXF6                       : 8
+#      VCC                         : 1
+#      XORCY                       : 35
+# FlipFlops/Latches                : 195
+#      FDC                         : 6
+#      FDCE                        : 128
+#      FDE                         : 37
+#      LD                          : 3
+#      LD_1                        : 21
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 2
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-4 
+
+ Number of Slices:                      176  out of   7680     2%  
+ Number of Slice Flip Flops:            195  out of  15360     1%  
+ Number of 4 input LUTs:                270  out of  15360     1%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    173     6%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------+---------------------------+-------+
+Clock Signal                                      | Clock buffer(FF name)     | Load  |
+--------------------------------------------------+---------------------------+-------+
+clock                                             | BUFGP                     | 171   |
+cb/first_value_or0000(cb/first_value_or000035:O)  | NONE(*)(cb/first_value_7) | 8     |
+cb/second_value_or0000(cb/second_value_or000016:O)| NONE(*)(cb/second_value_7)| 8     |
+cb/estado_FSM_FFd3                                | NONE(cb/last_register_2)  | 3     |
+cb/estado_FSM_FFd16                               | NONE(cb/operation_1)      | 5     |
+--------------------------------------------------+---------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------+-----------------------------------------------------+-------+
+Control Signal                                                             | Buffer(FF name)                                     | Load  |
+---------------------------------------------------------------------------+-----------------------------------------------------+-------+
+cb/reset_operation(cb/reset_operation:Q)                                   | NONE(regs/reg0/stored_0)                            | 64    |
+ob/divider/reset_base(ob/divider/control/estado_FSM_Out01:O)               | NONE(ob/divider/operational/base_reg/stored_0)      | 24    |
+ob/multiplier/reset_base(ob/multiplier/control/estado_FSM_Out01:O)         | NONE(ob/multiplier/operational/base_reg/stored_0)   | 16    |
+ob/multiplier/reset_counter(ob/multiplier/control/estado_FSM_Out51_INV_0:O)| NONE(ob/multiplier/operational/counter_reg/stored_0)| 16    |
+ob/divider/reset_counter(ob/divider/control/estado_FSM_Out61_INV_0:O)      | NONE(ob/divider/operational/counter_reg/stored_0)   | 8     |
+reset                                                                      | IBUF                                                | 6     |
+---------------------------------------------------------------------------+-----------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.236ns (Maximum Frequency: 108.272MHz)
+   Minimum input arrival time before clock: 4.585ns
+   Maximum output required time after clock: 13.529ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 9.236ns (frequency: 108.272MHz)
+  Total number of paths / destination ports: 8626 / 267
+-------------------------------------------------------------------------
+Delay:               9.236ns (Levels of Logic = 6)
+  Source:            ob/multiplier/operational/counter_reg/stored_7 (FF)
+  Destination:       cb/estado_FSM_FFd3 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: ob/multiplier/operational/counter_reg/stored_7 to cb/estado_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.720   1.256  ob/multiplier/operational/counter_reg/stored_7 (ob/multiplier/operational/counter_reg/stored_7)
+     LUT4:I0->O            1   0.551   0.996  ob/multiplier/operational/ready893_SW0 (N16)
+     LUT4:I1->O            2   0.551   1.216  ob/multiplier/operational/ready8136_SW0 (N26)
+     LUT4:I0->O            1   0.551   0.000  ob/multiplier/control/operation_ready1_F (N69)
+     MUXF5:I0->O           2   0.360   0.903  ob/multiplier/control/operation_ready1 (multiplication_ready)
+     LUT4:I3->O            1   0.551   0.827  cb/estado_FSM_FFd3-In_SW0_SW0_SW0 (N54)
+     LUT4:I3->O            1   0.551   0.000  cb/estado_FSM_FFd3-In (cb/estado_FSM_FFd3-In)
+     FDE:D                     0.203          cb/estado_FSM_FFd3
+    ----------------------------------------
+    Total                      9.236ns (4.038ns logic, 5.198ns route)
+                                       (43.7% logic, 56.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              4.585ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       cb/estado_FSM_FFd17 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to cb/estado_FSM_FFd17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   0.821   1.066  reset_IBUF (reset_IBUF)
+     INV:I->O             20   0.551   1.545  cb/estado_FSM_ClkEn_FSM_inv1_INV_0 (cb/estado_FSM_ClkEn_FSM_inv)
+     FDE:CE                    0.602          cb/estado_FSM_FFd3
+    ----------------------------------------
+    Total                      4.585ns (1.974ns logic, 2.611ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 457 / 9
+-------------------------------------------------------------------------
+Offset:              13.529ns (Levels of Logic = 5)
+  Source:            mem/mem_value_4 (FF)
+  Destination:       result<7> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: mem/mem_value_4 to result<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.720   1.246  mem/mem_value_4 (mem/mem_value_4)
+     LUT4:I0->O            1   0.551   1.140  cb/register_index<1>9 (cb/register_index<1>9)
+     LUT2:I0->O           24   0.551   1.797  cb/register_index<1>10 (register_index<1>)
+     MUXF5:S->O            1   0.621   0.000  regs/mux3b/Mmux_s_3_f5 (regs/mux3b/Mmux_s_3_f5)
+     MUXF6:I1->O           4   0.342   0.917  regs/mux3b/Mmux_s_2_f6 (result_0_OBUF)
+     OBUF:I->O                 5.644          result_0_OBUF (result<0>)
+    ----------------------------------------
+    Total                     13.529ns (8.429ns logic, 5.100ns route)
+                                       (62.3% logic, 37.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cb/estado_FSM_FFd3'
+  Total number of paths / destination ports: 56 / 8
+-------------------------------------------------------------------------
+Offset:              12.491ns (Levels of Logic = 5)
+  Source:            cb/last_register_1 (LATCH)
+  Destination:       result<7> (PAD)
+  Source Clock:      cb/estado_FSM_FFd3 falling
+
+  Data Path: cb/last_register_1 to result<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.633   1.140  cb/last_register_1 (cb/last_register_1)
+     LUT4_L:I0->LO         1   0.551   0.295  cb/register_index<1>4 (cb/register_index<1>4)
+     LUT2:I1->O           24   0.551   1.797  cb/register_index<1>10 (register_index<1>)
+     MUXF5:S->O            1   0.621   0.000  regs/mux3b/Mmux_s_3_f5 (regs/mux3b/Mmux_s_3_f5)
+     MUXF6:I1->O           4   0.342   0.917  regs/mux3b/Mmux_s_2_f6 (result_0_OBUF)
+     OBUF:I->O                 5.644          result_0_OBUF (result<0>)
+    ----------------------------------------
+    Total                     12.491ns (8.342ns logic, 4.149ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.21 secs
+ 
+--> 
+
+Total memory usage is 4552732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   41 (   0 filtered)
+Number of infos    :   26 (   0 filtered)
+

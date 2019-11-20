@@ -1,0 +1,404 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: memory.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "memory.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "memory"
+Output Format                      : NGC
+Target Device                      : xc3s1000-4-ft256
+
+---- Source Options
+Top Module Name                    : memory
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd" in Library work.
+Architecture behavioral of Entity memory is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <memory> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <memory> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd" line 25: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <mem_value>
+Entity <memory> analyzed. Unit <memory> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <memory>.
+    Related source file is "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/memory.vhd".
+    Found 7x23-bit ROM for signal <mem_value$mux0000> created at line 33.
+    Found 32-bit up counter for signal <counter>.
+    Found 23-bit register for signal <mem_value>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  23 D-type flip-flop(s).
+Unit <memory> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 7x23-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 1
+ 23-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <memory>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_mem_value_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 7x23-bit ROM                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <counter_3> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_4> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_5> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_6> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_7> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_8> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_9> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_10> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_11> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_12> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_13> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_14> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_15> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_16> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_17> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_18> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_19> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_20> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_21> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_22> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_23> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_24> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_25> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_26> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_27> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_28> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_29> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_30> of sequential type is unconnected in block <memory>.
+WARNING:Xst:2677 - Node <counter_31> of sequential type is unconnected in block <memory>.
+INFO:Xst:2261 - The FF/Latch <mem_value_6> in Unit <memory> is equivalent to the following 9 FFs/Latches, which will be removed : <mem_value_7> <mem_value_8> <mem_value_9> <mem_value_10> <mem_value_11> <mem_value_16> <mem_value_17> <mem_value_18> <mem_value_19> 
+
+Optimizing unit <memory> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block memory, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : memory.ngr
+Top Level Output File Name         : memory
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 30
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 2
+#      LUT2                        : 3
+#      LUT3                        : 13
+#      LUT4                        : 4
+#      MUXCY                       : 2
+#      VCC                         : 1
+#      XORCY                       : 3
+# FlipFlops/Latches                : 17
+#      FDE                         : 17
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 2
+#      OBUF                        : 24
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-4 
+
+ Number of Slices:                       14  out of   7680     0%  
+ Number of Slice Flip Flops:             17  out of  15360     0%  
+ Number of 4 input LUTs:                 23  out of  15360     0%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    173    15%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 17    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.404ns (Maximum Frequency: 227.066MHz)
+   Minimum input arrival time before clock: 4.459ns
+   Maximum output required time after clock: 10.623ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.404ns (frequency: 227.066MHz)
+  Total number of paths / destination ports: 47 / 17
+-------------------------------------------------------------------------
+Delay:               4.404ns (Levels of Logic = 3)
+  Source:            counter_1 (FF)
+  Destination:       counter_2 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: counter_1 to counter_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             14   0.720   1.526  counter_1 (counter_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_counter_cy<1>_rt (Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            0   0.500   0.000  Mcount_counter_cy<1> (Mcount_counter_cy<1>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_counter_xor<2> (Result<2>)
+     FDE:D                     0.203          counter_2
+    ----------------------------------------
+    Total                      4.404ns (2.878ns logic, 1.526ns route)
+                                       (65.3% logic, 34.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 34 / 17
+-------------------------------------------------------------------------
+Offset:              4.459ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       mem_value_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to mem_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   1.140  reset_IBUF (reset_IBUF)
+     LUT2:I0->O           17   0.551   1.345  mem_value_and00001 (mem_value_and0000)
+     FDE:CE                    0.602          mem_value_0
+    ----------------------------------------
+    Total                      4.459ns (1.974ns logic, 2.485ns route)
+                                       (44.3% logic, 55.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 37 / 24
+-------------------------------------------------------------------------
+Offset:              10.623ns (Levels of Logic = 3)
+  Source:            mem_value_22 (FF)
+  Destination:       memoria_vazia (PAD)
+  Source Clock:      clock rising
+
+  Data Path: mem_value_22 to memoria_vazia
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.720   1.216  mem_value_22 (mem_value_22)
+     LUT2:I0->O            1   0.551   1.140  empty_cmp_eq00000 (empty_cmp_eq00000)
+     LUT4:I0->O            1   0.551   0.801  empty_cmp_eq000030 (memoria_vazia_OBUF)
+     OBUF:I->O                 5.644          memoria_vazia_OBUF (memoria_vazia)
+    ----------------------------------------
+    Total                     10.623ns (7.466ns logic, 3.157ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.16 secs
+ 
+--> 
+
+Total memory usage is 4520352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.xst" -ofn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.syr" 
+xst -intstyle ise -ifn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.xst" -ofn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/lau_ob.syr" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.xst" -ofn "C:/Users/jeanw/Desktop/VHDL/vhdl-calculator/register_bank.syr" 
